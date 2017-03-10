@@ -26,6 +26,10 @@
             <id>primefaces</id>
             <url>http://repository.primefaces.org</url>
         </repository>
+        <repository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public/</url>
+		</repository>
     </repositories>
 
     <dependencyManagement>
@@ -120,6 +124,13 @@
           <artifactId>perfmon</artifactId>
           <version>2.2.2</version>
         </dependency>
+        
+        <dependency>
+			<groupId>org.jenkins-ci.plugins</groupId>
+			<artifactId>testInProgress-client</artifactId>
+			<version>1.0</version>
+			<scope>test</scope>
+		</dependency>
        
         
     </dependencies>
