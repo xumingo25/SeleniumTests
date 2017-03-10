@@ -154,14 +154,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <jmeterExtensions>
-                        <artifact>kg.apc:jmeter-plugins:pom:1.3.1</artifact>
-                    </jmeterExtensions>
-					<junitLibraries>
-                        <artifact>com.lazerycode.junit:junit-test:1.0.0</artifact>
-                    </junitLibraries>
-                </configuration>
             </plugin>
 
         </plugins>
