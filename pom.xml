@@ -160,6 +160,11 @@
                     </jmeterExtensions>
                 </configuration>
             </plugin>
+            <plugin>
+    			<groupId>kg.apc</groupId>
+    				<artifactId>jmeter-plugins</artifactId>
+    				<version>1.0.0</version>
+			</plugin>
         </plugins>
     </build>
 
