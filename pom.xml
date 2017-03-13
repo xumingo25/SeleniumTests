@@ -30,6 +30,10 @@
 			<id>repo.jenkins-ci.org</id>
 			<url>http://repo.jenkins-ci.org/public/</url>
 		</repository>
+		<repository>
+   			<id>EclipseLink</id>
+   			<url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+		</repository>
     </repositories>
 
     <dependencyManagement>
